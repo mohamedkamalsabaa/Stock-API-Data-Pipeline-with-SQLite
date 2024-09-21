@@ -5,7 +5,7 @@ from stock_pipeline import fetch_stock_data, store_data_to_db
 
 default_args = {
     'owner': 'MKS',
-    'start_date': datetime(2024, 9, 20),
+    'start_date': datetime(2024, 7, 20),
     'retries': 1,
     'retry_delay': timedelta(minutes=5)
 }
